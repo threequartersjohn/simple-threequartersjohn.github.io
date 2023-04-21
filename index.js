@@ -10,8 +10,6 @@ function setColorTheme(value) {
 
 function setSizeTheme(value) {
     const root = document.documentElement;
-
-    console.log('doin stuff');
     
     const themes = [`--small`, '--medium', '--large'];
 
