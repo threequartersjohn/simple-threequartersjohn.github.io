@@ -20,9 +20,9 @@
   --light-accent-color: #FFB300;
 
   /* Font sizes */
-  --small-font-size: 14px;
-  --medium-font-size: 15px;
-  --large-font-size: 16px;
+  --small-font-size: 0.875rem;
+  --medium-font-size: 0.9375rem;
+  --large-font-size: 1rem;
 
   /* Initial color values */
   --bg-color: var(--dark-bg-color);
@@ -248,6 +248,18 @@ nav a {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+
+.themeSelectionContainer .sizeThemeOptions span:nth-child(1) {
+  font-size: 0.75rem;
+}
+
+.themeSelectionContainer .sizeThemeOptions span:nth-child(2) {
+  font-size: 0.875rem;
+}
+
+.themeSelectionContainer .sizeThemeOptions span:nth-child(3) {
+  font-size: 1rem;
 }
 
 footer {
