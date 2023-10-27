@@ -133,7 +133,7 @@ img {
 
 @media (hover: hover) {
   .movingContainer:hover .moving {
-    animation-duration: 0.15s;
+    animation-duration: 0.2s;
   } 
 }
 
