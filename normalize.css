@@ -18,7 +18,6 @@ main {
 h1 {
   font-size: 2rem;
 }
-
 h2 {
   font-size: 1.5rem;
 }
@@ -63,7 +62,7 @@ textarea {
   margin: 0;
 }
 
-     
+
 /* normalize styles of clickables in safari  */
 button,
 [type='button'],
