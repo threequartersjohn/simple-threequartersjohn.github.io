@@ -40,7 +40,8 @@
 
             <footer>
               <div class="themeSelectionContainer">
-                <input class="themeRange" type="range" id="colorTheme" min="0" max="2" value="0">
+                <label id="colorThemeLabel" class="hidden" for="colorTheme">Change the color theme:</label>
+                <input aria-labelledby="colorThemeLabel" class="themeRange" type="range" id="colorTheme" min="0" max="2" value="0">
 
                 <div class="colorThemeOptions">
                   <span>
@@ -61,8 +62,9 @@
                 </div>
               </div>
 
-              <div class="themeSelectionContainer" >
-                <input class="themeRange" type="range" id="sizeTheme" min="0" max="2" value="0">
+              <div class="themeSelectionContainer">
+                <label id="sizeThemeLabel" class="hidden" for="sizeTheme">Change the font size:</label>
+                <input aria-labelledby="sizeThemeLabel" class="themeRange" type="range" id="sizeTheme" min="0" max="2" value="0">
 
                 <div class="sizeThemeOptions">
                   <span>A</span>
