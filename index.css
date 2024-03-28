@@ -1,5 +1,4 @@
 /* variables */
-
 :root {
   /* Themes: */
   /* --dark: absolute dark theme */
@@ -46,13 +45,16 @@
     --accent-color: var(--light-accent-color);
   }
 }
+/* -- */
 
 /* Fonts */
 @font-face {
+  font-display: swap;
   font-family: 'Lora';
   font-weight: 400;
   src: url('./public/fonts/lora-variable.ttf');
 }
+/* -- */
 
 /* Animations */
 @keyframes wave {
@@ -72,7 +74,9 @@
     transform: translateY(0);
   }
 }
+/* -- */
 
+/* General styles */
 html {
   font-size: var(--font-size);
 }
@@ -134,7 +138,7 @@ img {
 @media (hover: hover) {
   .movingContainer:hover .moving {
     animation-duration: 0.2s;
-  } 
+  }
 }
 
 .textContainer .moving:nth-of-type(1) {
@@ -284,7 +288,7 @@ input[type="range"]::-webkit-slider-runnable-track {
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
-  margin-top: -6px; 
+  margin-top: -6px;
   border-radius: 0.45rem;
   background-color: var(--text-color);
   height: 0.9rem;
@@ -336,3 +340,4 @@ input[type="range"]::-moz-range-thumb {
     display: block;
   }
 }
+/* -- */
