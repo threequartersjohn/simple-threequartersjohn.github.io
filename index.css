@@ -169,7 +169,7 @@ img {
   animation-delay: calc(6 * 0.05s);
 }
 
-.textContainer article {
+.textContainer section {
   margin-top: 2rem;
 }
 
