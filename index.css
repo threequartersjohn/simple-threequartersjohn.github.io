@@ -74,6 +74,28 @@
     transform: translateY(0);
   }
 }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes slideAskew {
+    from {
+        top: 0px;
+        right: 0px;
+    }
+
+    to {
+        top: 10px;
+        right: 10px;
+    }
+}
 /* -- */
 
 /* General styles */
@@ -101,6 +123,7 @@ main {
 }
 
 .layout {
+    animation: fadeIn 0.6s ease-in-out;
     display: flex;
 }
 
@@ -113,7 +136,6 @@ img {
   width: 20rem;
   position: relative;
   margin-right: 3rem;
-  transition: width ease-in-out 0.15s 0.05s;
 }
 
 .imageContainer::before {
@@ -127,6 +149,7 @@ img {
   background-color: var(--accent-color);
   z-index: -1;
   transition: 0.3s ease-in-out;
+  animation: slideAskew 0.6s ease-out;
 }
 
 .textContainer {
