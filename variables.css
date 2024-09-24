@@ -1,0 +1,48 @@
+/* variables */
+:root {
+    /* Themes: */
+    /* --dark: absolute dark theme */
+    /* --gray: not quite so dark */
+    /* --light: light theme */
+
+    /* Colors */
+    --dark-bg-color: #000;
+    --dark-text-color: #fff;
+    --dark-accent-color:  #FA8072 ;
+
+    --gray-bg-color: #2b2b2b;
+    --gray-text-color: #ddffe4;
+    --gray-accent-color: #4562da;
+
+    --light-bg-color: #eee4e4;
+    --light-text-color: #770064;
+    --light-accent-color: #FFB300;
+
+    /* Font sizes */
+    --small-font-size: 0.875rem;
+    --medium-font-size: 0.9375rem;
+    --large-font-size: 1rem;
+
+    /* Initial color values */
+    --bg-color: var(--dark-bg-color);
+    /* --bg-color: var(--gray-bg-color); */
+    /* --bg-color: var(--light-bg-color); */
+    --text-color: var(--dark-text-color);
+    /* --text-color: var(--gray-text-color); */
+    /* --text-color: var(--light-text-color); */
+    --accent-color: var(--dark-accent-color);
+    /* --accent-color: var(--gray-accent-color); */
+    /* --accent-color: var(--light-accent-color); */
+
+    /* Initial font size value */
+    --font-size: var(--large-font-size);
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg-color: var(--light-bg-color);
+      --text-color: var(--light-text-color);
+      --accent-color: var(--light-accent-color);
+    }
+  }
+  /* -- */

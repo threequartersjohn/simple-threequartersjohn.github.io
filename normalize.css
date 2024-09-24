@@ -9,27 +9,12 @@ body {
   margin: 0;
 }
 
-/* render main correctly in IE */
-main {
-  display: block;
-}
-
 /* fix h1, h2 font size properties removing irregular changes in section/article parents  */
 h1 {
   font-size: 2rem;
 }
 h2 {
   font-size: 1.5rem;
-}
-
-/* remove anchor backgrounds in IE */
-a {
-  background-color: transparent;
-}
-
-/* remove image borders in IE */
-img {
-  border-style: none;
 }
 
 /* remove unwanted padding and margins */

@@ -1,0 +1,8 @@
+/* Fonts */
+@font-face {
+    font-display: swap;
+    font-family: 'Lora';
+    font-weight: 400;
+    src: url('./public/fonts/lora-variable.woff2');
+  }
+  /* -- */
